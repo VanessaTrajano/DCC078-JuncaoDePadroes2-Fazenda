@@ -5,7 +5,7 @@ import org.example.frutadearvore.FrutaCereja;
 import org.example.frutadechao.FrutaDeChao;
 import org.example.frutadechao.FrutaMorango;
 
-public class FabricaFrutasPrimavera implements FabricaAbstrataSementes{
+public class FabricaFrutasPrimavera implements FabricaAbstrataFrutas {
     @Override
     public FrutaDeArvore createFruta() {
         return new FrutaCereja(80);

@@ -1,6 +1,6 @@
 package org.example;
 
-import org.example.fabricas.FabricaAbstrataSementes;
+import org.example.fabricas.FabricaAbstrataFrutas;
 import org.example.frutadearvore.FrutaDeArvore;
 import org.example.frutadechao.FrutaDeChao;
 
@@ -16,7 +16,7 @@ public class Fazenda {
         return fruta;
     }
 
-    public Fazenda (FabricaAbstrataSementes fabrica) {
+    public Fazenda (FabricaAbstrataFrutas fabrica) {
         this.fruta = fabrica.createFruta();
         this.semente = fabrica.createSemente();
     }

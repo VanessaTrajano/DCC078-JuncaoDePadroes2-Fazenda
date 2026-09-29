@@ -6,7 +6,7 @@ public class FabricaFrutasFactory {
     public static FabricaFrutasFactory getInstance() {
         return instance;
     }
-    public FabricaAbstrataSementes obterFabrica(String estacao) {
+    public FabricaAbstrataFrutas obterFabrica(String estacao) {
         Class classe = null;
         Object objeto = null;
         try {
@@ -15,9 +15,9 @@ public class FabricaFrutasFactory {
         } catch (Exception ex) {
             throw new IllegalArgumentException("Fábrica inexistente");
         }
-        if (!(objeto instanceof FabricaAbstrataSementes)) {
+        if (!(objeto instanceof FabricaAbstrataFrutas)) {
             throw new IllegalArgumentException("Fábrica inválida");
         }
-        return (FabricaAbstrataSementes) objeto;
+        return (FabricaAbstrataFrutas) objeto;
     }
 }

@@ -10,7 +10,7 @@ class FrutasVeraoTest {
 
     @BeforeAll
     static void inicia(){
-        FabricaAbstrataSementes fabrica = FabricaFrutasFactory.getInstance().obterFabrica("Verao");
+        FabricaAbstrataFrutas fabrica = FabricaFrutasFactory.getInstance().obterFabrica("Verao");
         verao = new Fazenda(fabrica);
     }
 
