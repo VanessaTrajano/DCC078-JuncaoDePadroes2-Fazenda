@@ -1,7 +1,7 @@
-package org.example.frutas;
+package org.example.frutadearvore;
 
-public class FrutaLaranja extends Fruta {
-    public FrutaLaranja(float precoBase) {
+public class FrutaCereja extends FrutaDeArvore {
+    public FrutaCereja(float precoBase) {
         super(precoBase);
     }
 
@@ -10,6 +10,6 @@ public class FrutaLaranja extends Fruta {
     }
 
     public String colher() {
-        return "Laranja colhida";
+        return "Cereja colhida";
     }
 }

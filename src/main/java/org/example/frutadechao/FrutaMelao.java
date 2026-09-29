@@ -1,7 +1,7 @@
-package org.example.sementes;
+package org.example.frutadechao;
 
-public class SementeMelao extends Semente {
-    public SementeMelao(float precoBase) {
+public class FrutaMelao extends FrutaDeChao {
+    public FrutaMelao(float precoBase) {
         super(precoBase);
     }
 

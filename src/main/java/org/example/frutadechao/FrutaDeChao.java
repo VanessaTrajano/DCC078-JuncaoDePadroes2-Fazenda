@@ -1,13 +1,13 @@
-package org.example.frutas;
+package org.example.frutadechao;
 
 import org.example.qualidades.Qualidade;
 
-public abstract class Fruta {
+public abstract class FrutaDeChao {
     protected Qualidade qualidade;
 
     protected float precoBase;
 
-    public Fruta(float precoBase) {
+    public FrutaDeChao(float precoBase) {
         this.precoBase = precoBase;
     }
 

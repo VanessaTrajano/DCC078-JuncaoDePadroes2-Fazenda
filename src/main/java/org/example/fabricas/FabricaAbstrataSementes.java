@@ -1,9 +1,9 @@
 package org.example.fabricas;
 
-import org.example.frutas.Fruta;
-import org.example.sementes.Semente;
+import org.example.frutadearvore.FrutaDeArvore;
+import org.example.frutadechao.FrutaDeChao;
 
 public interface FabricaAbstrataSementes {
-    Fruta createFruta();
-    Semente createSemente();
+    FrutaDeArvore createFruta();
+    FrutaDeChao createSemente();
 }

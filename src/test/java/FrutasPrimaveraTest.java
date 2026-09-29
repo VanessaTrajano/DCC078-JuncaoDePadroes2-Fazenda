@@ -5,12 +5,12 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-class PlantasPrimaveraTest {
+class FrutasPrimaveraTest {
     static Fazenda primavera;
 
     @BeforeAll
     static void inicia(){
-        FabricaAbstrataSementes fabrica = FabricaSementesFactory.getInstance().obterFabrica("Primavera");
+        FabricaAbstrataSementes fabrica = FabricaFrutasFactory.getInstance().obterFabrica("Primavera");
         primavera = new Fazenda(fabrica);
     }
 

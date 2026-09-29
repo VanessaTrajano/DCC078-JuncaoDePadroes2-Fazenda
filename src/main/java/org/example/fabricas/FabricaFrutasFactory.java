@@ -1,9 +1,9 @@
 package org.example.fabricas;
 
-public class FabricaSementesFactory {
-    private FabricaSementesFactory() {};
-    private static FabricaSementesFactory instance = new FabricaSementesFactory();
-    public static FabricaSementesFactory getInstance() {
+public class FabricaFrutasFactory {
+    private FabricaFrutasFactory() {};
+    private static FabricaFrutasFactory instance = new FabricaFrutasFactory();
+    public static FabricaFrutasFactory getInstance() {
         return instance;
     }
     public FabricaAbstrataSementes obterFabrica(String estacao) {

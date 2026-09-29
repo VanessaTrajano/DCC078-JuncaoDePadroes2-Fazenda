@@ -1,18 +1,18 @@
 package org.example;
 
 import org.example.fabricas.FabricaAbstrataSementes;
-import org.example.frutas.Fruta;
-import org.example.sementes.Semente;
+import org.example.frutadearvore.FrutaDeArvore;
+import org.example.frutadechao.FrutaDeChao;
 
 public class Fazenda {
-    private Fruta fruta;
-    private Semente semente;
+    private FrutaDeArvore fruta;
+    private FrutaDeChao semente;
 
-    public Semente getSemente() {
+    public FrutaDeChao getSemente() {
         return semente;
     }
 
-    public Fruta getFruta() {
+    public FrutaDeArvore getFruta() {
         return fruta;
     }
 
